@@ -9,13 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-    <header>
-        <a href="https://student.uit.edu.vn/sites/daa/files/banner.png"></a>
+
+    <header class="header">
+        <img src="https://student.uit.edu.vn/sites/daa/files/banner.png" alt="error">
     </header>
-    <div>
-        <h1>Hello world</h1>
+
+    <div class="title">
+        <span>Kết quả học tập</span>
     </div>
+
+    <div class="login">
+        <h1>ĐĂNG NHẬP</h1>
+        <form onsubmit="login()">
+            <p class="name">Tên truy cập <span style="color: red;">*</span></p>
+            <div>
+                <input id="username" type="text" placeholder=""/>
+            </div>
+            <p class="note">Dùng tài khoản chứng thực</p>
+            <p class="name">Mật khẩu <span style="color: red;">*</span></p>
+            <div>
+                <input id="password" type="password" placeholder=""/>
+            </div>
+            <p class="note">Mật khẩu chứng thực</p>
+
+            
+        </form>
+    </div>
+
+    
     
 </body>
 </html>
