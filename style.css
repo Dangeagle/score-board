@@ -4,8 +4,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html{
+    height : 100%;
+}
+
 body{
     background-color: #E5ECF4;
+    min-height: 100%;
 }
 
 .main{
@@ -14,7 +19,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .title{
@@ -62,10 +66,12 @@ body{
 }
 
 .content{
-    margin-top: 100px;
+    position: sticky;
+    top: 100%;
     padding-top: 20px;
     border-top: solid 1px ;
     text-align: center;
     background-color: #fff;
     font-size: smaller;
+    padding-bottom: 10px;
 }
